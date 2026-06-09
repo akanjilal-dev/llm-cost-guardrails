@@ -1,0 +1,6 @@
+# Core middleware runs with NO dependencies (stdlib only) and no API keys.
+pytest>=8.0
+# Optional real-provider backends — install only when wiring the guard to a
+# live LLM (the guard itself is provider-agnostic; see the README).
+# anthropic>=0.40
+# openai>=1.30
